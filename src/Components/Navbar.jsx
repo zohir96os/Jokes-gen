@@ -3,6 +3,7 @@ const Navbar = () => {
   return (
     <div className="container nav-container">
       <nav className="navbar">
+        <Link to="/">Home</Link>
         <Link to="/blag">Blag</Link>
         <Link to="/blags">Blags</Link>
       </nav>
