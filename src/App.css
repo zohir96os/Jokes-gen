@@ -44,6 +44,11 @@ nav a {
   color: #666;
 }
 
+.jokes-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
 .generate-joke {
   padding: 10px;
   border-radius: 10px;
