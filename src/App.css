@@ -1,0 +1,53 @@
+.home {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.home p {
+  font-size: 52px;
+}
+.nav-container {
+  background-color: aquamarine;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 22 px;
+  background-color: tomato;
+}
+.joke-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.joke-type {
+  margin: 10px auto;
+}
+.joke-setup {
+  line-height: 1.8;
+  margin: 20px auto;
+}
+
+.joke-punch {
+  margin: 10px auto;
+  color: #666;
+}
+
+.generate-joke {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
